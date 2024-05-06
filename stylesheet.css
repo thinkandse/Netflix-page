@@ -5,7 +5,8 @@ body,html{
     
 }
 .background{
-    background-image: url(https://image.tmdb.org/t/p/original/sgAgaZKVXvhHQ2BmUFAoLPUEv6b.jpg);
+    /* background-image: url(https://image.tmdb.org/t/p/original/sgAgaZKVXvhHQ2BmUFAoLPUEv6b.jpg); */
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(1,0,1,0.8)), url('https://image.tmdb.org/t/p/original/sgAgaZKVXvhHQ2BmUFAoLPUEv6b.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -140,14 +141,15 @@ body,html{
 }
 
 .round_card{
-    border: 1px solid rgb(255, 157, 97);
+
     border-radius: 50%;
     width: 80px;  
     margin: 3px;
     height: 210px;
     overflow: hidden;
+    padding: 0.5px;
     /* padding: 20px; */
-    background-color: rgb(255, 157, 97);
+
 }
 .card_image{
     /* width: 300px; */
@@ -156,5 +158,12 @@ body,html{
 }
 
 .svg-icon {
-    height: 150px
+    height: 156.35px;
+    
+}
+
+.svg_image{
+    height: 156.35px;
+    width: 109.45;
+
 }
