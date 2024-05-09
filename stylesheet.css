@@ -1,7 +1,26 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('C:\Users\zeyua\Netflix-page\NetflixSans-Medium.otf') format('opentype'),
+    url('C:\Users\zeyua\Netflix-page\NetflixSans-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Netflix Sans Bold';
+    src: url('C:\Users\zeyua\Netflix-page\NetflixSans-Bold.otf') format('opentype'),
+    url('C:\Users\zeyua\Netflix-page\NetflixSans-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Netflix Sans Light';
+    src: url('C:\Users\zeyua\Netflix-page\NetflixSans-Light.otf') format('opentype'),
+    url('C:\Users\zeyua\Netflix-page\NetflixSans-Light.woff2') format('woff2');
+}
+
 body,html{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    
+
     
 }
 .background{
@@ -23,11 +42,15 @@ body,html{
     justify-content: space-between;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .navbar a{
     color: rgb(194, 194, 194);
     text-decoration: none;
+
 }
 
 .search{
@@ -39,10 +62,13 @@ body,html{
 }
 
 .nav-links{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    padding-top: 10px;
+    font-family: 'Netflix Sans' , sans-serif;
 }
 
 .nav-links li{
@@ -130,7 +156,8 @@ body,html{
     font-size: 1.4vw;
     margin: 1vw 0;
     display: flex;
-    font-weight: 500;
+    font-weight: 600;
+    font-family: 'Netflix Sans Bold', sans-serif;
 }
 
 .col2{
@@ -149,6 +176,7 @@ body,html{
     overflow: hidden;
     padding: 0.5px;
     /* padding: 20px; */
+    margin-bottom: 50px;
 
 }
 .card_image{
@@ -166,4 +194,38 @@ body,html{
     height: 156.35px;
     width: 109.45;
 
+}
+
+.bottom-right_img {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 63px;
+    height: auto;
+    margin-right: 70px;
+    margin-bottom: 25px;
+}
+
+.row_class {
+    margin-bottom: 45px;
+}
+
+.footer-text {
+    color: rgb(120, 124, 126);
+    text-decoration: none;
+    margin: 30px;
+    font-size: 13px;
+    font-family: 'Netflix Sans Light', sans-serif;
+
+}
+
+.footer-text:hover {
+
+    text-decoration: underline;
+}
+
+.footer-row {
+    margin-left: 82px;
+    margin-right: 32px;
+    margin-bottom: 16px;
 }
