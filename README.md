@@ -6,3 +6,5 @@
 - class is used to make a group of different tags so that we can style them with the same css
 - div is used to make a box, putting a tag inside a box to seperate it from other tags
 - a is the anchor tag which makes the text or image clickable
+
+![Uploading image.png…]()
