@@ -9,7 +9,7 @@
 
 ![image](https://github.com/thinkandse/Netflix-page/assets/160977920/9c68ca0e-0161-4596-ac7d-509794f31426)
 
+![image](https://github.com/thinkandse/Netflix-page/assets/160977920/eb657724-d1e8-4fc0-8785-48cca5f9a4ac)
 
 ![image](https://github.com/thinkandse/Netflix-page/assets/160977920/b6bece2d-142b-480c-b910-75aff9d78166)
 
-![image](https://github.com/thinkandse/Netflix-page/assets/160977920/eb657724-d1e8-4fc0-8785-48cca5f9a4ac)
