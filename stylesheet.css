@@ -1,24 +1,25 @@
 @font-face {
     font-family: 'Netflix Sans';
-    src: url('C:\Users\zeyua\Netflix-page\NetflixSans-Medium.otf') format('opentype'),
-    url('C:\Users\zeyua\Netflix-page\NetflixSans-Medium.woff2') format('woff2');
+    src: url('Assets/Fonts!/NetflixSans-Medium.otf') format('opentype'),
+    url('Assets/Fonts!/NetflixSans-Medium.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Netflix Sans Bold';
-    src: url('C:\Users\zeyua\Netflix-page\NetflixSans-Bold.otf') format('opentype'),
-    url('C:\Users\zeyua\Netflix-page\NetflixSans-Bold.woff2') format('woff2');
+    src: url('Assets/Fonts!/NetflixSans-Regular.otf') format('opentype'),
+    url('Assets/Fonts!/NetflixSans-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Netflix Sans Light';
-    src: url('C:\Users\zeyua\Netflix-page\NetflixSans-Light.otf') format('opentype'),
-    url('C:\Users\zeyua\Netflix-page\NetflixSans-Light.woff2') format('woff2');
+    src: url('Assets/Fonts!/NetflixSans-Light.otf') format('opentype'),
+    url('Assets/Fonts!/NetflixSans-Light.woff2') format('woff2');
 }
 
 body,html{
     margin: 0;
     padding: 0;
+    
     
 
     
@@ -160,12 +161,7 @@ body,html{
     font-family: 'Netflix Sans Bold', sans-serif;
 }
 
-.col2{
 
- 
-    padding: 0px;
-
-}
 
 .round_card{
 
@@ -183,6 +179,7 @@ body,html{
     /* width: 300px; */
     height: 100%;
     object-fit: cover;
+    
 }
 
 .svg-icon {
@@ -229,3 +226,29 @@ body,html{
     margin-right: 32px;
     margin-bottom: 16px;
 }
+
+.card {
+
+    overflow: hidden !important;
+    border: none !important;
+    /* width: 13rem !important; */
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.custom-spacing > [class^="col-"],
+.custom-spacing > [class*=" col-"] {
+padding-right: 1px;
+padding-left: 1px;
+}
+
+.row.custom-spacing {
+    margin-right: -10;
+    margin-left: -10;
+    }
+    
+    .row.custom-spacing > [class^="col-"],
+    .row.custom-spacing > [class*=" col-"] {
+    padding-right: -10;
+    padding-left: -10;
+    }
